@@ -23,14 +23,6 @@ It demonstrates an **end-to-end data pipeline**: from raw messy data → cleaned
 - Encoded categorical variables using One-Hot Encoding.  
 - Scaled numerical features for ML models.
 
-## Outputs
-Distribution of Variables
-https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/outputs/Distribution%20of%20variables%20(1).png
-https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/outputs/Distribution%20of%20variables.png
-
-Patient Survival Status 
-https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/outputs/Patient%20Survival%20Status%20Distribution.png
-
 ## 4. Exploratory Data Analysis (EDA)
 - **Target Distribution**: Visualized survival outcomes.  
 - **Numerical Analysis**: Histograms & boxplots for lab test results (Bilirubin, Albumin, Cholesterol).  
@@ -49,10 +41,23 @@ https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/output
 - **Random Forest** performed best and provided **feature importance** insights.  
 
 
-
 ## 6. Results & Insights
 - **Key Predictors**: Bilirubin, Albumin, Stage, Age, Ascites.  
-- Random Forest achieved the highest accuracy on the test set.  
+- Random Forest achieved the highest accuracy on the test set.
+## Outputs
+Distribution of Variables
+<img width="1362" height="786" alt="image" src="https://github.com/user-attachments/assets/07470655-2d83-4ae2-9f98-36598aaef0a8" />
+
+<img width="1261" height="267" alt="image" src="https://github.com/user-attachments/assets/99270def-09fc-4a94-84cf-762ca8be0d6d" />
+
+
+Patient Survival Status 
+<img width="767" height="490" alt="image" src="https://github.com/user-attachments/assets/67329690-414d-4cce-8034-5e3f62cde124" />
+
+Model Accuracy & F-1 Scores
+  <img width="518" height="282" alt="image" src="https://github.com/user-attachments/assets/944e7e0d-7f74-48df-b847-011c934ee9e3" />
+
+
 - Feature importance analysis highlighted which clinical features most impact survival.  
 
 
