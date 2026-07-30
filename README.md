@@ -8,7 +8,6 @@ It demonstrates an **end-to-end data pipeline**: from raw messy data → cleaned
 - **Objective**: Build a data analysis and machine learning pipeline to predict patient survival outcomes.  
 - **Dataset**: [Cirrhosis Patient Survival Prediction Dataset (Kaggle)](https://www.kaggle.com/datasets/joebeachcapital/cirrhosis-patient-survival-prediction)  
 
-
 ## 2. Tech Stack
 - **Languages**: Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)  
 - **Techniques**: Data Cleaning, Imputation, EDA, Feature Engineering, Classification, Model Evaluation  
@@ -22,8 +21,15 @@ It demonstrates an **end-to-end data pipeline**: from raw messy data → cleaned
   - Mode or **"Unknown"** category for categorical features (e.g., Drug, Ascites).  
 - Dropped irrelevant columns (e.g., unique patient IDs).  
 - Encoded categorical variables using One-Hot Encoding.  
-- Scaled numerical features for ML models.  
+- Scaled numerical features for ML models.
 
+## Outputs
+Distribution of Variables
+https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/outputs/Distribution%20of%20variables%20(1).png
+https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/outputs/Distribution%20of%20variables.png
+
+Patient Survival Status 
+https://github.com/saanvijaiswal/Healthcare-Survival-Prediction/blob/main/outputs/Patient%20Survival%20Status%20Distribution.png
 
 ## 4. Exploratory Data Analysis (EDA)
 - **Target Distribution**: Visualized survival outcomes.  
